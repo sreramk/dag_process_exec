@@ -1,0 +1,34 @@
+{
+  "ExecutionController": {
+    "create_db_container": {
+      "num_of_attempts": 2,
+      "timeout": 30
+    },
+    "create_db": {
+      "per_attempt_wait_time": 40,
+      "num_of_attempts": 10
+    },
+    "create_user": {
+      "per_attempt_wait_time": 2,
+      "num_of_attempts": 5
+    }
+  },
+  "ImageConstructor": {
+    "docker_file_path": "./dockerfile",
+    "force_build_image": true,
+    "rebuild_image": false
+  },
+
+  "database_name": "db_store",
+  "external_port_num_begin": 6000,
+  "docker_file_path": ".",
+  "image_name": "psql_ubuntu:0.4",
+  "internal_port_num": 5432,
+  "is_sudo": true,
+  "partition_name": "partition_",
+  "password": "password",
+  "replication_name": "_replication_",
+  "total_num_of_partitions": 3,
+  "total_num_of_replications": 3,
+  "user_name": "admin_user"
+}
