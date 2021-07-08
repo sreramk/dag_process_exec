@@ -1,3 +1,5 @@
+# taken from: https://gist.github.com/michelbl/efda48b19d3e587685e3441a74457024
+
 #!/usr/bin/env python
 '''
 A Python class implementing KBHIT, the standard keyboard-interrupt poller.
