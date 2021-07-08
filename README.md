@@ -4,4 +4,4 @@ I wrote this to help me setup PostgreSQL instances with docker, to help me with 
 
 ## Future work 
 
-This project can be generalized to help with any devOps tasks, and even extended to a complete job scheduling system.     
+This project can be generalized to help with any devOps tasks, and even extended to a complete job scheduling system. As it includes a custom pipelining library built using  `subprocess.Popen`  
